@@ -165,6 +165,7 @@ def get_sort(folder_path):
         adrenal = get_move_files(new_baz_file)
     remove_empty_folders(baz_files)
     unpack_archives(excluz)
+    get_rename_folders(baz_files)
 
 
 
